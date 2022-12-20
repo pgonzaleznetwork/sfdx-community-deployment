@@ -23,5 +23,24 @@
         <members>CommunitiesSelfReg</members>
         <name>ApexPage</name>
     </types>
+    <types>
+        <members>sonar__fieldSpyHowToUseImages</members>
+        <name>StaticResource</name>
+    </types>
+     <types>
+        <members>Omni_Setup_Flow</members>
+         <members>Knowledge_Manager_156158</members>
+          <members>GIFter</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>customCommunityComponent</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Create_a_Case_Custom</members>
+        <name>Flow</name>
+    </types>
+    
     <version>55.0</version>
 </Package>
