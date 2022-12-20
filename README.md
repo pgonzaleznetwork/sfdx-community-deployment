@@ -328,7 +328,10 @@ Create a scratch org with communities enabled. I used Org Shape (from the source
   "settings": {
       "communitiesSettings": {
           "enableNetworksEnabled": true
-      }
+      },
+      "experienceBundleSettings": {
+        "enableExperienceBundleMetadata": true
+    }
   }
 }
 ```
