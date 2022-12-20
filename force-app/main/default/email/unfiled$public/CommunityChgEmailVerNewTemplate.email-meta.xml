@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email that users receive on their new email when their email is changed</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Experience Cloud: New Email - Change Email Verification</name>
+    <style>none</style>
+    <subject>Finish changing your {!Community_Name} account’s email address</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

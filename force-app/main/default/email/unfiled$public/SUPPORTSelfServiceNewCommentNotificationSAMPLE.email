@@ -1,0 +1,7 @@
+Your case # {!Case.CaseNumber}: {!Case.Subject} has been updated.  Please click on the link below
+to view this case on the Self-Service portal.
+<insert the link to your Self-Service portal login page here>
+
+Feel free to reach out to us at sla-notification@company.com
+
+{!Organization.Name} Customer Support

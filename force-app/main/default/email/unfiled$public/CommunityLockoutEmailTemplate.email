@@ -1,0 +1,13 @@
+Hello {!Receiving_User.FirstName},
+
+            We received your request to reset your {!Community_Name} password. We can't reset your password right now. Your account is locked after too many login attempts.
+
+            {!CASE(1,
+            IF(VALUE(PASSWORD_LOCK_TIME) > 0, 1, 0), "Try again in " + PASSWORD_LOCK_TIME + " minutes.",
+            IF(VALUE(PASSWORD_LOCK_TIME) < 0, 1, 0), "Contact your " + Community_Name + " administrator to unlock your account.",
+            "")}
+
+            If you didn't request a password reset or haven't tried to log in to your account recently, contact your {!Community_Name} administrator or reply to this email.
+
+            Thank you,
+            {!Community_Name}

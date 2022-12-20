@@ -1,0 +1,8 @@
+Hi {!User.FirstName},
+
+            We received a request to change the email address for the username {!User.Username}.  Please make sure the following changes are correct:
+
+            Previous email address: {!ChgEmailVer.OldEmail}
+            New email address: {!ChgEmailVer.NewEmail}
+
+            If you didn't request this change, contact your {!Community_Name} administrator or reply to this email.

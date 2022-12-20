@@ -23,7 +23,6 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <serverIsDown>sonar__fieldSpyHowToUseImages</serverIsDown>
     <siteAdmin>pgonzaleznetwork@brave-raccoon-mm7crl.com</siteAdmin>
     <siteGuestRecordDefaultOwner>pgonzaleznetwork@brave-raccoon-mm7crl.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>

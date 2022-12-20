@@ -1,0 +1,9 @@
+Hi {!User.FirstName},
+
+            We received a request to change the email address for the username {!User.Username}.  Please make sure the following changes are correct:
+
+            Previous email address: {!ChgEmailVer.OldEmail}
+            New email address: {!ChgEmailVer.NewEmail}
+
+            To finish changing your email address, go to the following link. This link expires in 72 hours.
+            {!ChgEmailVer.Url}

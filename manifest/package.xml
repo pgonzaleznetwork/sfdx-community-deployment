@@ -24,16 +24,6 @@
         <name>ApexPage</name>
     </types>
     <types>
-        <members>sonar__fieldSpyHowToUseImages</members>
-        <name>StaticResource</name>
-    </types>
-     <types>
-        <members>Omni_Setup_Flow</members>
-         <members>Knowledge_Manager_156158</members>
-          <members>GIFter</members>
-        <name>PermissionSet</name>
-    </types>
-    <types>
         <members>customCommunityComponent</members>
         <name>LightningComponentBundle</name>
     </types>
@@ -47,18 +37,32 @@
     </types>
     <types>
         <members>VIP_Customers</members>
-        <members>Default_Salto Support</members>
         <name>Audience</name>
     </types>
     <types>
         <members>Account.CustomerPriority__c</members>
         <members>Case.Original_Deal__c</members>
         <members>Contact.OtherAccountId__c</members>
+        <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Knowledge__kav.Content__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>Share_cases_with_users</members>
         <name>SharingSet</name>
-    </types>
+    </types>   
+   <types>
+        <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
+        <members>unfiled$public/ExperienceCloudSelfRegMicroBatchSubErrorEmailTemplate</members>
+        <members>unfiled$public/CommunityChgEmailVerOldTemplate</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+        <members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityChgEmailVerNewTemplate</members>
+        <members>unfiled$public/ExperienceCloudSelfRegMicroBatchSubErrorEmailTemplate</members>
+        <members>unfiled$public/CommunityLockoutEmailTemplate</members>
+        <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
+        <name>EmailTemplate</name>
+    </types> 
     <version>55.0</version>
 </Package>

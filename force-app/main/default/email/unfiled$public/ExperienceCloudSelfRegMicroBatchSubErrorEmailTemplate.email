@@ -1,0 +1,14 @@
+We hit a snag with your registration to {!Community_Name}.
+
+
+              Please resolve the following error: 
+
+{!SelfReg_MicroBatch_Error}
+
+
+              Go to {!Community_Url} to try again, or contact your administrator for help.
+
+
+              Thank you,
+
+              {!Organization.Name}

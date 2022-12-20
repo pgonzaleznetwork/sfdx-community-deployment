@@ -15,14 +15,12 @@
     <disableReputationRecordConversations>true</disableReputationRecordConversations>
     <emailSenderAddress>pgonzaleznetwork@gmail.com</emailSenderAddress>
     <emailSenderName>Salto Support</emailSenderName>
-    <enableApexCDNCaching>true</enableApexCDNCaching>
     <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
     <enableDirectMessages>true</enableDirectMessages>
     <enableExperienceBundleBasedSnaOverrideEnabled>false</enableExperienceBundleBasedSnaOverrideEnabled>
     <enableGuestChatter>false</enableGuestChatter>
     <enableGuestFileAccess>false</enableGuestFileAccess>
     <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
-    <enableImageOptimizationCDN>true</enableImageOptimizationCDN>
     <enableInvitation>false</enableInvitation>
     <enableKnowledgeable>false</enableKnowledgeable>
     <enableMemberVisibility>false</enableMemberVisibility>
@@ -39,11 +37,7 @@
     <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
     <lockoutTemplate>unfiled$public/CommunityChgEmailVerNewTemplate</lockoutTemplate>
     <networkMemberGroups>
-        <permissionSet>Omni_Setup_Flow</permissionSet>
-        <permissionSet>Knowledge_Manager_156158</permissionSet>
-        <permissionSet>GIFter</permissionSet>
         <profile>admin</profile>
-        <profile>knowledge manager</profile>
         <profile>identity user</profile>
         <profile>contractmanager</profile>
     </networkMemberGroups>

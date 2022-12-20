@@ -18,6 +18,7 @@ This sample sfdx project contains the metadata needed to deploy an experience/co
     * [Topics](#topics)
     * [Sharing Sets](#sharing-sets)
 * [package.xml](#packagexml)
+* [How to deploy this community](#how-to-deploy-this-community)
 
 
 ### Community Metadata
@@ -312,3 +313,61 @@ The `package.xml` file in this directory contains all the metadata mentioned abo
     <version>55.0</version>
 </Package>
 ```
+
+### How to deploy this community
+
+Create a scratch org with communities enabled. I used Org Shape (from the source org) to ensure all community settings were present.
+
+```json
+{
+  "orgName": "Acme",
+  "sourceOrg": "00D3h000005XLUw", 
+  "features": ["Communities", "ServiceCloud"],
+  "settings": {
+      "communitiesSettings": {
+          "enableNetworksEnabled": true
+      }
+  }
+}
+```
+
+Then run this command to create the scratch org:
+
+```
+sfdx force:org:create -f config/project-scratch-def.json --setalias communityorg --durationdays 7 --setdefaultusername --json --loglevel fatal
+```
+
+When the command is done, you should get something like this
+
+```json
+{
+  "status": 0,
+  "result": {
+    "username": "test-byzwi5tgqctv@example.com",
+    "scratchOrgInfo": {
+      "attributes": {
+        "type": "ScratchOrgInfo",
+        "url": "/services/data/v56.0/sobjects/ScratchOrgInfo/2SR3h000000LmzeGAC"
+      },
+      "Id": "2SR3h000000LmzeGAC",
+      "OwnerId": "0053h000002JF4cAAG",
+      "IsDeleted": false,
+      "Name": "00000004",
+      "CreatedDate": "2022-12-20T13:58:59.000+0000",
+      "CreatedById": "0053h000002JF4cAAG",
+       ...
+    "orgId": "00D8F0000004gGjUAI"
+  }
+}
+```
+
+Log in to the scratch org. Make sure `Enable ExperienceBundle Metadata API` is enabled under `Setup > Experiencies > Settings` (it should be enabled if you used the org shape from the source org)
+
+Then, just push the entire source to the scratch org
+
+```
+sfdx force:source:push
+```
+
+Once it's done, you should have a community site named Salto Support, along with all its dependencies. 
+
