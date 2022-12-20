@@ -17,6 +17,7 @@ This sample sfdx project contains the metadata needed to deploy an experience/co
     * [Audiences](#audiences)   
     * [Topics](#topics)
     * [Sharing Sets](#sharing-sets)
+* [package.xml](#packagexml)
 
 
 ### Community Metadata
@@ -239,4 +240,75 @@ These fields must also be included in your sfdx project
     <members>Contact.OtherAccountId__c</members>
     <name>CustomField</name>
 </types>
+```
+
+### package.xml
+
+The `package.xml` file in this directory contains all the metadata mentioned above, which is required to completely deploy this community site to another org. 
+
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Salto Support</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>Salto_Support</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>Salto_Support1</members>
+        <name>ExperienceBundle</name>
+    </types>
+     <types>
+        <members>CommunitiesLogin</members>
+        <members>BandwidthExceeded</members>
+        <members>FileNotFound</members>
+        <members>ForgotPassword</members>
+        <members>Exception</members>
+        <members>InMaintenance</members>
+        <members>CommunitiesLanding</members>
+        <members>CommunitiesSelfReg</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>sonar__fieldSpyHowToUseImages</members>
+        <name>StaticResource</name>
+    </types>
+     <types>
+        <members>Omni_Setup_Flow</members>
+         <members>Knowledge_Manager_156158</members>
+          <members>GIFter</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>customCommunityComponent</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Create_a_Case_Custom</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Salto Support</members>
+        <name>ManagedTopics</name>
+    </types>
+    <types>
+        <members>VIP_Customers</members>
+        <members>Default_Salto Support</members>
+        <name>Audience</name>
+    </types>
+    <types>
+        <members>Account.CustomerPriority__c</members>
+        <members>Case.Original_Deal__c</members>
+        <members>Contact.OtherAccountId__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Share_cases_with_users</members>
+        <name>SharingSet</name>
+    </types>
+    <version>55.0</version>
+</Package>
 ```
