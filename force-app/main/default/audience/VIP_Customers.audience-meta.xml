@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>VIP Customers</audienceName>
+    <container>Salto Support</container>
+    <criteria>
+        <criterion>
+            <criteriaNumber>1</criteriaNumber>
+            <criterionValue>
+                <entityField>Contact.Account.$Account.CustomerPriority__c</entityField>
+                <entityType>User</entityType>
+                <fieldValue>New High</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+    </criteria>
+    <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+    <isDefaultAudience>false</isDefaultAudience>
+    <targets>
+        <target>
+            <groupName>e5fe239b-df73-430d-8f9b-c9ea53abbcb9$#$ab37f004-bd49-4eb5-9f10-133f4165a026</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Home_Ask_Button_Component</targetValue>
+        </target>
+    </targets>
+</Audience>

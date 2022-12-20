@@ -41,6 +41,18 @@
         <members>Create_a_Case_Custom</members>
         <name>Flow</name>
     </types>
-    
+    <types>
+        <members>Salto Support</members>
+        <name>ManagedTopics</name>
+    </types>
+    <types>
+        <members>VIP_Customers</members>
+        <members>Default_Salto Support</members>
+        <name>Audience</name>
+    </types>
+    <types>
+        <members>Account.CustomerPriority__c</members>
+        <name>CustomField</name>
+    </types>
     <version>55.0</version>
 </Package>

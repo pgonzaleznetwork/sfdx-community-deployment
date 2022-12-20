@@ -137,3 +137,60 @@ In the above json, `Create_a_Case_Custom` is the name of a flow. This must be in
     <name>Flow</name>
 </types>
 ```
+
+#### Custom fields
+
+Custom fields can be referenced by the Flows or LWCs that you included. However, they can also be referenced on the site itself via the `Audience` metadata type.
+
+Here's an example of a filter criteria for an `Audience` associated to my site
+
+```xml
+<criteria>
+    <criterion>
+        <criteriaNumber>1</criteriaNumber>
+        <criterionValue>
+            <entityField>Contact.Account.$Account.CustomerPriority__c</entityField>
+            <entityType>User</entityType>
+            <fieldValue>New High</fieldValue>
+        </criterionValue>
+        <operator>Equal</operator>
+        <type>FieldBased</type>
+    </criterion>
+</criteria>
+```
+
+Here, the `Account.CustomerPriority` field must be included in your sfdx project
+
+```xml
+<types>
+    <members>Account.CustomerPriority__c</members>
+    <name>CustomField</name>
+</types>
+```
+
+### Other objects
+
+There are other objects that are linked to your community site.
+
+#### Audiences
+
+Audiences can be used to limit certain community components to specific users. These can be included via package.xml
+
+```xml
+<types>
+    <members>VIP_Customers</members>
+    <members>Default_Salto Support</members>
+    <name>Audience</name>
+</types>
+```
+
+#### Topics
+
+Topics are used to tag content, chatter feeds, etc. They can also be used for navigation. These can be included via package.xml
+
+```xml
+<types>
+    <members>Salto Support</members>
+    <name>ManagedTopics</name>
+</types>
+```
