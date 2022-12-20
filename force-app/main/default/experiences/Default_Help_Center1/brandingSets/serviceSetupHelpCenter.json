@@ -1,0 +1,30 @@
+{
+  "definitionName" : "serviceSetupHelpCenter:branding-serviceSetupHelpCenter",
+  "id" : "80370748-2fbd-43e9-9b35-b324c79b1888",
+  "label" : "Service Setup Help Center",
+  "type" : "brandingSet",
+  "values" : {
+    "ActionColor" : "#0070D2",
+    "BorderColor" : "#efefef",
+    "CompanyLogo" : "/sfsites/assets/themes/companyLogo.png",
+    "DetailTextColor" : "rgba(0, 0, 0, 0.6)",
+    "HeaderFonts" : "Montserrat",
+    "LinkColor" : "#0070D2",
+    "OverlayTextColor" : "#FFFFFF",
+    "PageBackgroundColor" : "#FFFFFF",
+    "PrimaryFont" : "Lato",
+    "TextColor" : "#4f4f4f",
+    "TextTransformStyle" : "none",
+    "_ActionColorDarker" : "#082695",
+    "_ActionColorTrans" : "rgba(10, 50, 198, 0.9)",
+    "_HoverColor" : "rgba(10, 50, 198, 0.05)",
+    "_LinkColorDarker" : "#000000",
+    "_OverlayTextColorShadow" : "#000000",
+    "_brandNavigationBarBackgroundColor" : "rgba(128,128,128,.75)",
+    "_brandNavigationItemBackgroundColorHover" : "rgba(0,0,0,.2)",
+    "_brandNavigationItemDividerColor" : "rgba(255, 255, 255, 0.2)",
+    "brandNavigationBackgroundColor" : "rgb(128,128,128)",
+    "brandNavigationBarBackgroundColor" : "rgba(128,128,128,.75)",
+    "brandNavigationColorText" : "#FFFFFF"
+  }
+}

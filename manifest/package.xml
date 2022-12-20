@@ -12,5 +12,16 @@
         <members>*</members>
         <name>ExperienceBundle</name>
     </types>
+     <types>
+        <members>CommunitiesLogin</members>
+        <members>BandwidthExceeded</members>
+        <members>FileNotFound</members>
+        <members>ForgotPassword</members>
+        <members>Exception</members>
+        <members>InMaintenance</members>
+        <members>CommunitiesLanding</members>
+        <members>CommunitiesSelfReg</members>
+        <name>ApexPage</name>
+    </types>
     <version>55.0</version>
 </Package>
