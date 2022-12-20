@@ -64,5 +64,9 @@
         <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
         <name>EmailTemplate</name>
     </types> 
+    <types>
+        <members>SFDC_Default_Navigation_Salto Support</members>
+        <name>NavigationMenu</name>
+    </types> 
     <version>55.0</version>
 </Package>

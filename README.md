@@ -195,9 +195,22 @@ Here, the `Account.CustomerPriority` field must be included in your sfdx project
 
 There are other objects that are linked to your community site.
 
+#### Community Navigation Menu
+
+This represents the navigation menu in an Experience Builder site. A navigation menu consists of items that users can click to go to other parts of the site.
+
+These can be included via `package.xml`
+
+```xml
+<types>
+    <members>SFDC_Default_Navigation_Salto Support</members>
+    <name>NavigationMenu</name>
+</types> 
+```
+
 #### Audiences
 
-Audiences can be used to limit certain community components to specific users. These can be included via package.xml
+Audiences can be used to limit certain community components to specific users. These can be included via `package.xml`
 
 ```xml
 <types>
@@ -209,7 +222,7 @@ Audiences can be used to limit certain community components to specific users. T
 
 #### Topics
 
-Topics are used to tag content, chatter feeds, etc. They can also be used for navigation. These can be included via package.xml
+Topics are used to tag content, chatter feeds, etc. They can also be used for navigation. These can be included via `package.xml`
 
 ```xml
 <types>
@@ -220,7 +233,7 @@ Topics are used to tag content, chatter feeds, etc. They can also be used for na
 
 #### Sharing Sets
 
-Sharing Sets are used to share records with customer community users who don't have access to standard sharing rules. These can be included via package.xml
+Sharing Sets are used to share records with customer community users who don't have access to standard sharing rules. These can be included via `package.xml`
 
 
 Note that the `accessMapping` contains references to custom fields. You must include those in your sfdx project
