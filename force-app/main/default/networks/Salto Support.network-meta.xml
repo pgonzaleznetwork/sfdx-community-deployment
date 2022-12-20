@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network xmlns="http://soap.sforce.com/2006/04/metadata">
+    <allowInternalUserLogin>false</allowInternalUserLogin>
+    <allowMembersToFlag>false</allowMembersToFlag>
+    <caseCommentEmailTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</caseCommentEmailTemplate>
+    <changePasswordTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
+    <chgEmailVerNewTemplate>unfiled$public/ExperienceCloudSelfRegMicroBatchSubErrorEmailTemplate</chgEmailVerNewTemplate>
+    <chgEmailVerOldTemplate>unfiled$public/CommunityChgEmailVerOldTemplate</chgEmailVerOldTemplate>
+    <communityRoles>
+        <customerUserRole>Customer Pro</customerUserRole>
+        <employeeUserRole>Employee Pro</employeeUserRole>
+        <partnerUserRole>Partner Pro</partnerUserRole>
+    </communityRoles>
+    <deviceActEmailTemplate>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</deviceActEmailTemplate>
+    <disableReputationRecordConversations>true</disableReputationRecordConversations>
+    <emailSenderAddress>pgonzaleznetwork@gmail.com</emailSenderAddress>
+    <emailSenderName>Salto Support</emailSenderName>
+    <enableApexCDNCaching>true</enableApexCDNCaching>
+    <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
+    <enableDirectMessages>true</enableDirectMessages>
+    <enableExperienceBundleBasedSnaOverrideEnabled>false</enableExperienceBundleBasedSnaOverrideEnabled>
+    <enableGuestChatter>false</enableGuestChatter>
+    <enableGuestFileAccess>false</enableGuestFileAccess>
+    <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
+    <enableImageOptimizationCDN>true</enableImageOptimizationCDN>
+    <enableInvitation>false</enableInvitation>
+    <enableKnowledgeable>false</enableKnowledgeable>
+    <enableMemberVisibility>false</enableMemberVisibility>
+    <enableNicknameDisplay>true</enableNicknameDisplay>
+    <enablePrivateMessages>false</enablePrivateMessages>
+    <enableReputation>false</enableReputation>
+    <enableShowAllNetworkSettings>false</enableShowAllNetworkSettings>
+    <enableSiteAsContainer>true</enableSiteAsContainer>
+    <enableTalkingAboutStats>true</enableTalkingAboutStats>
+    <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
+    <enableTopicSuggestions>false</enableTopicSuggestions>
+    <enableUpDownVote>false</enableUpDownVote>
+    <forgotPasswordTemplate>unfiled$public/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
+    <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
+    <lockoutTemplate>unfiled$public/CommunityChgEmailVerNewTemplate</lockoutTemplate>
+    <networkMemberGroups>
+        <permissionSet>Omni_Setup_Flow</permissionSet>
+        <permissionSet>Knowledge_Manager_156158</permissionSet>
+        <permissionSet>GIFter</permissionSet>
+        <profile>admin</profile>
+        <profile>knowledge manager</profile>
+        <profile>identity user</profile>
+        <profile>contractmanager</profile>
+    </networkMemberGroups>
+    <networkPageOverrides>
+        <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
+        <forgotPasswordPageOverrideSetting>VisualForce</forgotPasswordPageOverrideSetting>
+        <homePageOverrideSetting>Standard</homePageOverrideSetting>
+        <loginPageOverrideSetting>VisualForce</loginPageOverrideSetting>
+        <selfRegProfilePageOverrideSetting>VisualForce</selfRegProfilePageOverrideSetting>
+    </networkPageOverrides>
+    <picassoSite>Salto_Support1</picassoSite>
+    <selfRegMicroBatchSubErrorEmailTemplate>unfiled$public/ExperienceCloudSelfRegMicroBatchSubErrorEmailTemplate</selfRegMicroBatchSubErrorEmailTemplate>
+    <selfRegistration>true</selfRegistration>
+    <sendWelcomeEmail>true</sendWelcomeEmail>
+    <site>Salto_Support</site>
+    <siteArchiveStatus>NotArchived</siteArchiveStatus>
+    <status>UnderConstruction</status>
+    <tabs>
+        <defaultTab>home</defaultTab>
+        <standardTab>Chatter</standardTab>
+    </tabs>
+    <urlPathPrefix>saltosupport</urlPathPrefix>
+    <verificationTemplate>unfiled$public/CommunityLockoutEmailTemplate</verificationTemplate>
+    <welcomeTemplate>unfiled$public/CommunityWelcomeEmailTemplate</welcomeTemplate>
+</Network>

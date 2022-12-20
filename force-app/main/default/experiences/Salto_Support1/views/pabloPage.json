@@ -1,0 +1,115 @@
+{
+  "appPageId" : "0b2b895d-a677-4e15-996a-977ad2c893e3",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "ebb8bd88-0f77-4c35-88cf-d483fba518b9",
+  "label" : "PabloPage",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a8c5f86d-4d2e-436f-87d9-610939d9c7c8",
+          "columns" : [ {
+            "UUID" : "e1aa85d8-bd7b-4770-810e-a3e1783608b7",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "56e0e517-29fd-4245-a25d-445e8114548e",
+            "columnKey" : "4897b",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "d9bbeef7-b983-42c6-93f2-eb26c6f13a7d",
+            "columnKey" : "1922c",
+            "columnName" : "Column 3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "fc1aa323-2b7b-4a11-9838-5a15ed622921",
+            "columnKey" : "88f58",
+            "columnName" : "Column 4",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a8c5f86d-4d2e-436f-87d9-610939d9c7c8",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "Create_a_Case_Custom"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "38c2ea98-6a47-4e38-ae88-6c309578f57d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "buttonText" : "Salto rocks!"
+          },
+          "componentName" : "c:customCommunityComponent",
+          "id" : "806050a5-50f4-4a1f-87c2-84ec227c75c5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e1aa85d8-bd7b-4770-810e-a3e1783608b7",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "56e0e517-29fd-4245-a25d-445e8114548e",
+        "regionLabel" : "Column 2",
+        "regionName" : "4897b",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "d9bbeef7-b983-42c6-93f2-eb26c6f13a7d",
+        "regionLabel" : "Column 3",
+        "regionName" : "1922c",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "fc1aa323-2b7b-4a11-9838-5a15ed622921",
+        "regionLabel" : "Column 4",
+        "regionName" : "88f58",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e3eddcca-871f-42ad-a940-7e55961822b7",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "PabloPage"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c4e5f88c-041f-488e-a9c7-209c448dc0e4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cc23d9d6-23ce-42b9-adc4-841664e842ca",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-pablopage"
+}

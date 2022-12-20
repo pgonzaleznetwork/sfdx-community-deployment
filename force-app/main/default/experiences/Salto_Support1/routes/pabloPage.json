@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ebb8bd88-0f77-4c35-88cf-d483fba518b9",
+  "appPageId" : "0b2b895d-a677-4e15-996a-977ad2c893e3",
+  "configurationTags" : [ ],
+  "id" : "b166523c-a796-4387-943c-b1c4b2db7a73",
+  "label" : "PabloPage",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-pablopage",
+  "type" : "route",
+  "urlPrefix" : "pablopage"
+}
