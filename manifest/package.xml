@@ -52,7 +52,13 @@
     </types>
     <types>
         <members>Account.CustomerPriority__c</members>
+        <members>Case.Original_Deal__c</members>
+        <members>Contact.OtherAccountId__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>Share_cases_with_users</members>
+        <name>SharingSet</name>
     </types>
     <version>55.0</version>
 </Package>

@@ -194,3 +194,30 @@ Topics are used to tag content, chatter feeds, etc. They can also be used for na
     <name>ManagedTopics</name>
 </types>
 ```
+
+#### Sharing Sets
+
+Sharing Sets are used to share records with customer community users who don't have access to standard sharing rules. These can be included via package.xml
+
+
+Note that the `accessMapping` contains references to custom fields. You must include those in your sfdx project
+
+```xml
+ <accessMappings>
+    <accessLevel>Read</accessLevel>
+    <object>Case</object>
+    <objectField>Original_Deal__c.Account</objectField>
+    <userField>Contact.OtherAccountId__c</userField>
+</accessMappings>
+```
+
+These fields must also be included in your sfdx project
+
+```xml
+ <types>
+    <members>Account.CustomerPriority__c</members>
+    <members>Case.Original_Deal__c</members>
+    <members>Contact.OtherAccountId__c</members>
+    <name>CustomField</name>
+</types>
+```
