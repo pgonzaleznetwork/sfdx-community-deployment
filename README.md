@@ -1,10 +1,29 @@
 # SFDX Community Deployment
 
-This sample sfdx project contains the metadata needed to deploy an experience/community site. The 3 main metadata types are [Network](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_network.htm?q=network), [CustomSite](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_sites.htm) and [ExperienceBundle](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_experiencebundle.htm)
+This sample sfdx project contains the metadata needed to deploy an experience/community site. 
 
-### package.xml
+## Contents
 
-Note that the package.xml file contains the 3 metadata types mentioned above. Note how the name of the site (Salto Support) is written differently for all the 3 metadata types (to make things more confusing)
+* [Community Metadata](#community-metadata)
+* [Dependencies](#dependencies)
+    * [Visualforce Pages](#visualforce-pages)
+    * [Static Resources](#static-resources)
+    * [Email Templates](#email-templates)
+    * [Profiles and Permission Sets](#profiles-and-permission-sets)
+    * [LWC](#lwc)
+    * [Flows](#flows)
+    * [Custom Fields](#custom-fields)
+* [Other Objects](#other-objects)
+    * [Audiences](#audiences)   
+    * [Topics](#topics)
+    * [Sharing Sets](#sharing-sets)
+
+
+### Community Metadata
+
+The community is represented by 3 main metadata types: [Network](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_network.htm?q=network), [CustomSite](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_sites.htm) and [ExperienceBundle](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_experiencebundle.htm)
+
+Note how the name of the site (**Salto Support** in this example) is written differently for all the 3 metadata types (to make things more confusing)
 
 ```xml
     <types>
