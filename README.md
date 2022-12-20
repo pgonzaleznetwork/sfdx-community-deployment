@@ -2,6 +2,8 @@
 
 This sample sfdx project contains the metadata needed to deploy an experience/community site. 
 
+As seen on https://www.pablogonzalez.io/how-to-deploy-a-community-experience-site-with-sfdx-and-not-go-crazy/
+
 ## Contents
 
 * [Community Metadata](#community-metadata)
